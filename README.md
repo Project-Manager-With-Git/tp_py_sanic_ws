@@ -1,0 +1,2 @@
+# tp_py_sanic_ws
+使用sanic构造websocket项目的模板
