@@ -31,17 +31,17 @@
     },
     "components": {
         "aiowscli": {
-            "source": "cp_py_sanic//aiowscli",
+            "source": "cp_py_sanic@v0.0.1//aiowscli",
             "description": "websocket的异步客户端模板",
             "default_path": "aiowscli.py"
         },
         "ws": {
-            "source": "cp_py_sanic//ws",
+            "source": "cp_py_sanic@v0.0.1//ws",
             "description": "sanic的websocket接口定义",
             "default_path": "{{ project_name }}/ws"
         },
         "listeners": {
-            "source": "cp_py_sanic//listeners",
+            "source": "cp_py_sanic@v0.0.1//listeners",
             "description": "sanic的hooks定义",
             "default_path": "{{ project_name }}/listeners"
         },
@@ -56,12 +56,12 @@
             "default_path": "{{ project_name }}/__init__.py"
         },
         "docker-compose": {
-            "source": "cp_dockercompose//server_standalone",
+            "source": "cp_dockercompose@v0.0.2//server_standalone",
             "description": "通用的服务使用的dockercompose,适用于调试",
             "default_path": "docker-compose.yml"
         },
         "dockerfile": {
-            "source": "cp_py_sanic//dockerfile",
+            "source": "cp_py_sanic@v0.0.1//dockerfile",
             "description": "构造sanic项目的dockerfile",
             "default_path": "dockerfile"
         }
